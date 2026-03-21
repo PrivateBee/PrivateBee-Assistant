@@ -1,7 +1,4 @@
-<!-- This repository is a template -->
-<!-- To use it for your project, search for every comment line and follow instructions -->
-
-# Private Bee Template <!-- Change the title with your project's name -->
+# Private Bee Assistant 
 
 ## Project Description 
 
@@ -23,8 +20,17 @@ The system computes the **optimal trajectory** not only in **space** but also in
 
 ## Repository Purpose
 
-<!-- Complete with the repository purpose and explain what part of the Private Bee project this repository covers -->
+This repository serves as the central integration hub for the GPS 4D project, acting as a "Waze for flying vehicles" by consolidating multiple specialized repositories. Its goal is to provide a unified framework that orchestrates real-time flight data, navigation logic, and airspace traffic to enable dynamic trajectory optimization in urban air mobility.
 
+Within the Private Bee ecosystem, this repository focuses on:
+
+- System Aggregation: Merging core modules from various sub-repositories into a single, functional prototype.
+
+- Dynamic Navigation: Implementing the "4th dimension" (Time) to handle real-time alerts and rerouting, similar to road traffic synchronization.
+
+- Mobile Interface Integration: Hosting the phone application logic that serves as the pilot's primary dashboard for real-time trajectory monitoring, alerts, and mission control.
+
+- End-to-End Simulation: Providing the necessary environment to test integrated flight scenarios, from mission planning to emergency management.
 ---
 
 ## Repository Structure <!-- Adapt the structure with your project's structure -->
@@ -75,7 +81,7 @@ npm run build
 
 Example:
 ```bash
-git clone https://github.com/PrivateBeeTEST/your-repository.git
+git clone https://github.com/PrivateBee/PrivateBee-Assistant.git
 cd your-repository
 npm install
 ```
